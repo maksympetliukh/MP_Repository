@@ -63,8 +63,8 @@ void* input_thread(void* arg)
             case 'b':
             if(state == RUN || state == PAUSE)
             {
-            state = STOP;
-            time_seconds = 0;
+                state = STOP;
+                time_seconds = 0;
             printf("\nTimer stopped and reset\n");
             }
             break;
