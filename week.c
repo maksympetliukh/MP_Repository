@@ -15,25 +15,25 @@ void* week_thread(void* arg) {
         input = getchar();
         switch (input) {
             case '1':
-                printf("Your day of is Monday\n");
+                printf("Your day off is Monday\n");
             break;
             case '2':
-                printf("Your day of is Tuesday\n");
+                printf("Your day off is Tuesday\n");
             break;
             case '3':
-                printf("Your day of is Wednesday\n");
+                printf("Your day off is Wednesday\n");
             break;
             case '4':
-                printf("Your day of is Thursday\n");
+                printf("Your day off is Thursday\n");
             break;
             case '5':
-                printf("Your day of is Friday\n");
+                printf("Your day off is Friday\n");
             break;
             case '6':
-                printf("Your day of is Saturday\n");
+                printf("Your day off is Saturday\n");
             break;
             case '7':
-                printf("Your day of is Sunday\n");
+                printf("Your day off is Sunday\n");
             break;
             case '8':
                 printf("Finish selection\n");
